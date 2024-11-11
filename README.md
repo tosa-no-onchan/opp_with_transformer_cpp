@@ -1,6 +1,4 @@
-# opp_with_transformer_cpp  
-
-cource_classgen.cpp  
+# cource_classgen.cpp  
 
 It makes the course class file(n-l.yaml) from cource line images(n-l.jpg)  
 
