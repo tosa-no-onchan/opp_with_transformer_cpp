@@ -7,6 +7,9 @@ It makes the course class file(n-l.yaml) from cource line images(n-l.jpg)
 Save n.jpg image files from a part of Ros2 Global cost map.   
 The robo moves from left center to right centr avoiding obstacle.  
 
+Usual, run C++ Auto Mower with ml_data:=True  
+$ ros2 launch turtlebot3_navi_my go_auto_mower.launch.py use_sim_time:=[True] ml_data:=True
+
 This images size 122 x Max 600 with map resolution 0.025  
 Usually, ROS2 Global costmap resolution is 0.05 , then it's original images size is 61 x Max 300  
 
