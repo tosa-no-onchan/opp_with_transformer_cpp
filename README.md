@@ -11,7 +11,7 @@ The robo moves from left center to right centr avoiding obstacle.
 
 With Gimp, drow a center line for robo mower move on it avoiding obstacle inflatuion and save n-l.jpg as cource line images.  
 Line is 2 dot width.  
-If no obstacle on center , the line becames a straight-line.   
+If no obstacle is on center , the line becames a straight-line.   
 
 ![n-l.jpg file](https://github.com/tosa-no-onchan/opp_with_transformer_cpp/blob/main/images/1-l.jpg)  
 
