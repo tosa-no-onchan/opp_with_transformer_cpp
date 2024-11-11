@@ -15,7 +15,9 @@ Usually, ROS2 Global costmap resolution is 0.05 , then it's original images size
 
 With Gimp, drow a center line for robo mower move on it avoiding obstacle inflatuion and save n-l.jpg as cource line images.  
 Line is 2 dot width.  
+On Gimp, you had better to add a lines layer and white layer avobe or below original layer.  
 If no obstacle is on center , the line becames a straight-line.   
+At last,export lines layer and white layer as to n-l.jpg and save all data to n.xcf(gimp original format file).  
 
 ![n-l.jpg file](https://github.com/tosa-no-onchan/opp_with_transformer_cpp/blob/main/images/1-l.jpg)  
 
