@@ -30,6 +30,7 @@ data_num: 44
 class_num: 49
 data: 24 24 24 24 24 24 24 23 22 21 21 21 22 23 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 23 22 21 21 21 22
 ``````
+Then, You can run opp_with_lstm training or opp_with_transformer_mltu trainning.  
 
 #### 1. how to build  
 $ git clone https://github.com/tosa-no-onchan/opp_with_transformer_cpp.git  
