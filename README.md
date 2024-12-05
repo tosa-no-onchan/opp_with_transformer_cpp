@@ -51,3 +51,7 @@ $ make
 
 #### 2. how to run.  
 $ ./cource_classgen  
+
+#### 3. test data of mine  
+
+[test data](https://huggingface.co/datasets/tosa-no-onchan/opp)
