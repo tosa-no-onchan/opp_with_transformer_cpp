@@ -69,5 +69,5 @@ Fetching 3 files: 100%|███████████████████
 check and find zip file ~/.cache/huggingface/hub/datasets--tosa-no-onchan--opp/blobs
 ~/.cache/huggingface/hub/datasets--tosa-no-onchan--opp/blobs/16ae24a1abf0a96891568121152952588f59b147627af8ac22fee427b5848f78   --> zip file
 unzip 16ae24a1abf0a96891568121152952588f59b147627af8ac22fee427b5848f78
-you can fined image/1.jpg 1.xcf 1-l.jpg 1-l.yaml ....
+you can find image/1.jpg 1.xcf 1-l.jpg 1-l.yaml ....
 ``````
