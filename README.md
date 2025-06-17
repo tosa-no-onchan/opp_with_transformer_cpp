@@ -58,17 +58,16 @@ $ ./cource_classgen
 How to get  
 ``````
 $ source kivy_env-3.12/bin/activate
-(kivy_env-3.12) $ python -m pip install datasets
-(kivy_env-3.12) $ python
->>> from datasets import load_dataset
->>> dataset = load_dataset("tosa-no-onchan/opp",split="train")
-image.zip: 100%|███████████████████████████| 24.4M/24.4M [00:08<00:00, 2.82MB/s]
-Generating train split: 100%|██████| 2185/2185 [00:00<00:00, 6608.29 examples/s]
->>> dataset
-Dataset({
-    features: ['image'],
-    num_rows: 2185
-})
->>> exit()
-
+(kivy_env-3.12) $ python -m pip install "huggingface_hub[cli]"
+(kivy_env-3.12) $ huggingface-cli download tosa-no-onchan/opp --repo-type dataset
+Fetching 3 files:   0%|                                   | 0/3 [00:00<?, ?it/s]Downloading '.gitattributes' to '/home/nishi/.cache/huggingface/hub/datasets--tosa-no-onchan--opp/blobs/55cab133643a2a73e083373d2106533678d0edd5.incomplete'
+.gitattributes: 100%|██████████████████████| 2.42k/2.42k [00:00<00:00, 7.98MB/s]
+Download complete. Moving file to /home/nishi/.cache/huggingface/hub/datasets--tosa-no-onchan--opp/blobs/55cab133643a2a73e083373d2106533678d0edd5
+Fetching 3 files: 100%|███████████████████████████| 3/3 [00:00<00:00,  5.05it/s]
+/home/nishi/.cache/huggingface/hub/datasets--tosa-no-onchan--opp/snapshots/d42d642453a5c8f218a3503e5d117f9f12a52711
+(kivy_env-3.12) nishi@ns-ub1x:~$ deactivate
+check and find zip file ~/.cache/huggingface/hub/datasets--tosa-no-onchan--opp/blobs
+~/.cache/huggingface/hub/datasets--tosa-no-onchan--opp/blobs/16ae24a1abf0a96891568121152952588f59b147627af8ac22fee427b5848f78   --> zip file
+unzip 16ae24a1abf0a96891568121152952588f59b147627af8ac22fee427b5848f78
+you can fined image/1.jpg 1.xcf 1-l.jpg 1-l.yaml ....
 ``````
