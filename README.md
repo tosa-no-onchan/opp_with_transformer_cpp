@@ -61,9 +61,14 @@ $ source kivy_env-3.12/bin/activate
 (kivy_env-3.12) $ python -m pip install datasets
 (kivy_env-3.12) $ python
 >>> from datasets import load_dataset
->>> dataset = load_dataset("tosa-no-onchan/opp")
+>>> dataset = load_dataset("tosa-no-onchan/opp",split="train")
 image.zip: 100%|███████████████████████████| 24.4M/24.4M [00:08<00:00, 2.82MB/s]
 Generating train split: 100%|██████| 2185/2185 [00:00<00:00, 6608.29 examples/s]
+>>> dataset
+Dataset({
+    features: ['image'],
+    num_rows: 2185
+})
 >>> exit()
 
 ``````
