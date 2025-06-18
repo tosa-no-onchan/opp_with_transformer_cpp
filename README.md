@@ -56,6 +56,11 @@ $ ./cource_classgen
 
 [test data](https://huggingface.co/datasets/tosa-no-onchan/opp)  
 How to get  
+use virtualenv  
+
+$ pip3 install virtualenv --user  
+$ python3 -m virtualenv kivy_env-3.12  
+$ cd ~  
 ``````
 $ source kivy_env-3.12/bin/activate
 (kivy_env-3.12) $ python -m pip install "huggingface_hub[cli]"
